@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #fff9f9;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 20px;
+}
+
+.grafico {
+  height: 10px;
+  background: linear-gradient(to right, #ff69b4, #ffb6c1);
+  position: relative;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.dia-fertil {
+  height: 100%;
+  background: yellow;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 25%;
+  z-index: 2;
+}

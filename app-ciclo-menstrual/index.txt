@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seguimiento Menstrual</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📅 Seguimiento del Ciclo Menstrual</h1>
+
+  <label>Fecha inicio del último periodo:</label>
+  <input type="date" id="fechaInicio" />
+
+  <label>Duración promedio del ciclo (días):</label>
+  <input type="number" id="duracionCiclo" value="28" min="21" max="35" />
+
+  <button onclick="calcular()">Guardar y Calcular</button>
+
+  <div id="resultado" style="margin-top: 20px;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
